@@ -2,11 +2,11 @@ from umqtt.simple import MQTTClient
 import utime
 
 # ─── KONFIGURASI HiveMQ ─────────────────────────
-MQTT_HOST      = "8525c44062cf49a98372394728de7e08.s1.eu.hivemq.cloud"
-MQTT_PORT      = 8883
-MQTT_USER      = "HEA_GARAGE"
-MQTT_PASSWORD  = "Haedaergiagit123"
-MQTT_CLIENT_ID = "HEA_GARAGE_ESP32"
+MQTT_HOST      = "url"
+MQTT_PORT      = port
+MQTT_USER      = "user"
+MQTT_PASSWORD  = "pw"
+MQTT_CLIENT_ID = "client id"
 
 # ─── TOPIC PUBLISH (ESP32 → App) ────────────────
 TOPIC_SUHU   = b"garasi/suhu"
