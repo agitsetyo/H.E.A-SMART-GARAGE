@@ -1,7 +1,7 @@
 import network
 import utime
 
-WIFI_SSID     = "Purworejo "
+WIFI_SSID     = "wifi kalian "
 WIFI_PASSWORD = "12345678"
 
 def connect_wifi():
